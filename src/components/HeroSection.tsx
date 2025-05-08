@@ -1,5 +1,5 @@
 // src/components/HeroSection.tsx
-import React from 'react';
+// import React from 'react';
 import './HeroSection.css'; // Import the CSS for the Hero Section
 
 // Define the HeroSection functional component

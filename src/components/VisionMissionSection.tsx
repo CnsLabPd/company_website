@@ -1,5 +1,5 @@
 // src/components/VisionMissionSection.tsx
-import React from 'react';
+// import React from 'react';
 import './VisionMissionSection.css'; // Import the CSS for this section
 
 // Define the VisionMissionSection functional component

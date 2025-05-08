@@ -1,5 +1,5 @@
 // src/App.tsx
-import React from 'react';
+//import React from 'react';
 import './App.css'; // Global app styles (for body, .App, etc.)
 
 // Import the components for each section of the homepage
