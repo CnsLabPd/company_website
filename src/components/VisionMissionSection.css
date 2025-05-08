@@ -1,0 +1,58 @@
+/* src/components/VisionMissionSection.css */
+
+/* Styles for the main section */
+.vision-mission-section {
+    background-color: #f8f8f8; /* Very light gray background */
+    color: #333; /* Dark text for readability on light background */
+    padding: 4rem 0; /* Padding top and bottom */
+    text-align: center; /* Center the content */
+  }
+  
+  /* Styles for the container */
+  .vision-mission-section .container {
+    max-width: 900px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Padding on the sides */
+  }
+  
+  /* Styles for the individual vision and mission blocks */
+  .vision-mission-section .vision,
+  .vision-mission-section .mission {
+    margin-bottom: 3rem; /* Space between Vision and Mission blocks */
+  }
+  
+  /* Remove bottom margin for the last block */
+  .vision-mission-section .mission {
+      margin-bottom: 0;
+  }
+  
+  
+  /* Styles for the section titles (Vision/Mission) */
+  .vision-mission-section .section-title {
+    font-size: 2rem; /* Title font size */
+    margin-bottom: 1rem; /* Space below the title */
+    color: #e91e63; /* Example Pink color */
+  }
+  
+  /* Styles for the paragraph text */
+  .vision-mission-section p {
+    font-size: 1.1rem; /* Paragraph font size */
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Slightly lighter text color */
+  }
+  
+  /* Basic responsiveness */
+  @media (max-width: 768px) {
+    .vision-mission-section {
+      padding: 3rem 0; /* Adjust padding for smaller screens */
+    }
+  
+    .vision-mission-section .section-title {
+      font-size: 1.75rem; /* Adjust title font size */
+    }
+  
+    .vision-mission-section p {
+      font-size: 1rem; /* Adjust paragraph font size */
+    }
+  }
+  

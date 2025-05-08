@@ -1,0 +1,81 @@
+/* src/components/Header.css */
+
+.header {
+    background-color: #ffffff; /* White background for a light theme */
+    border-bottom: 1px solid #eee; /* Subtle border at the bottom */
+    padding: 1rem 0; /* Padding top and bottom */
+    color: #333; /* Dark text color */
+    position: sticky; /* Make the header stick to the top */
+    top: 0; /* Position it at the top */
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on potential scroll change */
+  }
+  
+  /* Optional: Style for header when scrolled (requires JavaScript to add a class like 'scrolled') */
+  /* .header.scrolled {
+      background-color: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+  } */
+  
+  
+  .header .container {
+    max-width: 1200px; /* Max width of the content */
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Padding on the sides */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out logo and navigation */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .header .logo a {
+    color: #e91e63; /* Example Pink color for logo */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.5rem; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .header .logo a:hover {
+      color: #c2185b; /* Darker pink on hover */
+  }
+  
+  .header .navigation ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for list items */
+  }
+  
+  .header .navigation li {
+    margin-left: 1.5rem; /* Space between navigation items */
+  }
+  
+  .header .navigation a {
+    color: #333; /* Navigation link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1rem; /* Example font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .header .navigation a:hover {
+    color: #007bff; /* Example Blue hover color */
+  }
+  
+  /* Basic responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .header .container {
+      flex-direction: column; /* Stack logo and navigation */
+      align-items: center;
+    }
+  
+    .header .navigation ul {
+      margin-top: 1rem; /* Space between logo and navigation */
+    }
+  
+    .header .navigation li {
+      margin: 0 0.5rem; /* Adjust spacing for stacked layout */
+    }
+  }
+  
